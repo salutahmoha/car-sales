@@ -1,0 +1,198 @@
+*{
+    max-width: 100%;
+  }
+.home{
+    background-image: url(../Assets/ruckRacing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    height: 550px;
+    display: block;
+    text-align: start;
+    width: 100%;
+}
+.home h1{
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+}
+.home span{
+    color: red;
+}
+.home p{
+    color: white;
+    font-size: 30px;
+}
+.home button{
+    width: 130px;
+    height: 40px;
+    background: black;
+    color: white;
+}
+
+/* trucks section stling*/
+
+.electric_trucks{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #ecdada;
+}
+.electric_trucks, h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.electric , h1, h2, h4 {
+    color: blueviolet;
+}
+.bev_specs p {
+    text-align: center;
+}
+.bevBtn {
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bevBtn button {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease-in;
+}
+.bevBtn button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+/* images styling both trucks and buses */
+
+.home .vehicle_image {
+   display: block;
+}
+
+.vehicle_image img {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+/* buses section styling */
+.electricbus {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #222;
+    padding-right: 10px;
+}
+
+.electricbus h2 {
+    color: white;
+}
+.cityWideSpecs{
+    color: white;
+}
+
+/* deals styling */
+
+.deals {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+#others .T_and_B{
+    display: block;
+    justify-content: space-around;
+    width: 350px;
+    height: 370px;
+    margin-left: 30px;
+    background: #c8cddb;
+    margin-bottom: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-align: start;
+}
+.deals .T_and_B h4, p {
+    padding-left: 5px;
+}
+.deals .T_and_B img{
+    width: 349px;
+    height: 200px;
+}
+.T_and_B:hover {
+    background:#ebe2e2 ;
+    border: 1px solid black;
+}
+
+.T_and_B span {
+    color: rgba(128, 39, 211, 0.637);
+}
+.T_and_B .button_checkout {
+    width: 40%;
+    padding-left: 5px;
+}
+.T_and_B .button_checkout button {
+    width: 100%;
+    height: 100%;
+    background: rgb(146, 110, 19);
+    border:  1px solid black;
+    border-radius: 3px;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+.T_and_B .button_checkout button:hover {
+    background: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.footer {
+   background: #222;
+   
+}
+.copyright{
+    color: white;
+    display: flex;
+}
+.footer a{
+    text-decoration: none;
+    margin: 3px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+    scale: 1.05;
+}
+.footer_div {
+    width: calc(25% - 30px);
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+}

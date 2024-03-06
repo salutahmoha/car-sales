@@ -1,0 +1,96 @@
+.truck_details {
+    background-color: #ecdada;
+    height: 580px;
+}
+
+.prices_and_inquiry {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #222;
+    color: white;   
+}
+.price ul {
+    margin-left:0;
+    list-style: none;
+}
+.inquiry {
+    width: 700px;
+    height: 360px;
+    margin-right: 30px;
+}
+
+.name_and_phoneNumber {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name_and_phoneNumber .name_field {
+    height: 45px;
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+.name_and_phoneNumber .phoneNumberField {
+    height: 45px;
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+.inquiry .name_and_phoneNumber .name_field input,
+.inquiry .name_and_phoneNumber .phoneNumberField input {
+    height: 100%;
+    width: 90%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+.emailField {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.textArea {
+    height: 120px;
+    width: 100%;
+}
+
+.inquiry form .emailField input,
+.inquiry form .textArea textarea {
+    height: 100%;
+    width: 95%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+.button {
+    width: 170px;
+    height: 47px;
+}
+
+.button button {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border: 2px solid white;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background: none;
+    color: white;
+}
